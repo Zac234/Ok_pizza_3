@@ -1,3 +1,46 @@
+#page_head {
+  display: grid;
+  justify-items: center;
+}
 
+#PP_logo {
+  height: 50px;
+  width: 75px;
+  align-self: start;
+  object-fit: fill;
+}
+
+#page_head > a {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 10px;
+}
+
+#page_foot {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#page_foot > div {
+  color: antiquewhite;
+  font-size: smaller;
+  size: 2em;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#page_main {
+  display: grid;
+  justify-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

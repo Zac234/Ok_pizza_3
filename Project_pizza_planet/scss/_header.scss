@@ -1,0 +1,18 @@
+#page_head{
+    display: grid;
+    justify-items: center;
+}
+#PP_logo{
+    height: 50px;
+    width: 75px;
+    align-self: start;
+    object-fit:fill;
+}
+
+#page_head>a{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}

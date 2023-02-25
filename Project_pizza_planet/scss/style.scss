@@ -1,0 +1,14 @@
+@use "header";
+@use "footer";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#page_main{
+    display: grid;
+    justify-items: center;
+    margin-top:30px ;
+    margin-bottom: 30px;
+
+}
