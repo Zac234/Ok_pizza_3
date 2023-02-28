@@ -31,14 +31,4 @@
   size: 2em;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-#page_main {
-  display: grid;
-  grid-template-columns: repeat(autofit, minmax(250px, 1fr));
-}
-
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=C_L.css.map */
