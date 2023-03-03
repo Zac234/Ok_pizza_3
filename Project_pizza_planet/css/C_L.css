@@ -31,4 +31,20 @@
   size: 2em;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#page_main_c {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#location {
+  margin-top: 30px;
+  font-weight: 900;
+}
+
 /*# sourceMappingURL=C_L.css.map */
