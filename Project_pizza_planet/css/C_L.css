@@ -47,4 +47,55 @@
   font-weight: 900;
 }
 
+@media screen and (min-width: 650px) {
+  #page_head {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #page_head > #PP_logo {
+    position: absolute;
+    justify-self: start;
+    align-self: auto;
+  }
+  #page_head > #title {
+    justify-self: center;
+    align-self: center;
+    padding-top: 50px;
+    font-size: 500%;
+  }
+  #page_head > #Home {
+    justify-self: end;
+    align-self: auto;
+    font-size: 250%;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  #page_head > #About {
+    justify-self: end;
+    align-self: auto;
+    font-size: 250%;
+    margin-right: 20px;
+  }
+  #page_head > #menu {
+    justify-self: end;
+    align-self: auto;
+    font-size: 250%;
+  }
+  #page_main_c {
+    margin: 0px;
+    background-color: tomato;
+    width: 100%;
+  }
+  #page_main_c > #location {
+    font-size: 300%;
+  }
+  #page_main_c > #contact {
+    font-size: 300%;
+    margin-bottom: 50px;
+  }
+  #page_foot {
+    margin: 0px;
+  }
+}
+
 /*# sourceMappingURL=C_L.css.map */

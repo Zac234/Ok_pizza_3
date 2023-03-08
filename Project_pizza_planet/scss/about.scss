@@ -29,3 +29,88 @@
     justify-self: center;
     align-self: center;
 }
+
+#entrance{
+    display: none;
+}
+#truck{
+    display: none;
+
+}
+#exterior{
+    display: none;
+
+}
+#interior{
+    display: none;
+}
+@media  screen and (min-width:650px){
+    #page_head{
+        display: block;
+        margin-bottom: 10px;
+        >#PP_logo{
+            position: absolute;
+            justify-self: start;
+            align-self: auto;
+           
+
+
+        }
+        >#title{
+            justify-self: center;
+            align-self: center;
+            padding-top: 50px;
+            font-size: 500%;
+        }
+        >#Home{
+            justify-self: end;
+            align-self: auto;
+            font-size: 250%;
+            margin-right: 20px;
+            margin-left: 10px;
+
+        }
+        >#conloc{
+            justify-self: end;
+            align-self:auto;
+            font-size: 250%;
+            margin-right: 20px;
+
+        }
+        >#menu{
+            justify-self: end;
+            align-self: auto;
+            font-size: 250%;
+
+        }
+    }
+    #page_main_b{
+        margin: 0px;
+        background-color: tomato;
+        width: 100%;
+
+        >#about_art{
+            >#history{
+                font-size: 350%;
+                color: white;
+
+            }
+            >#his_about{
+                font-size: 200%;
+                color: white;
+            }
+            
+        
+
+            
+
+
+        }
+       
+    }
+    #page_foot{
+        margin: 0px;
+    }
+
+    
+}
