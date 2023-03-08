@@ -10,15 +10,17 @@
 
 #page_main_d{
     display: grid;
+
     
    
 }
 #main_dishes{
     display: grid;
-    grid-template-columns:repeat(autofit, minmax(250px,1fr)); ;
+    
 }
 #Pizza{
     display:grid;
+   
 }
 #title1{
     margin-top: 25px;
@@ -27,6 +29,7 @@
 }
 .menu_cont_a{
     display:grid;
+    grid-template-columns: repeat(autofit,minmax(250px,1fr));
     justify-items: center;
     align-items: center;
     margin-top: 25px;
@@ -37,6 +40,7 @@
     border-color: black;
     border-style: solid;
     height: 400px;
+    
     
 
     >img{
@@ -85,3 +89,200 @@
     height: 200px;
 
 }
+#treats{
+    display: grid;
+}
+#title4{
+    margin-top: 25px;
+  justify-self: center;
+  align-self: center;
+}
+#snacks{
+    display: grid;
+
+}
+#title5{
+    margin-top: 25px;
+  justify-self: center;
+  align-self: center;
+}
+
+
+
+@media  screen and (min-width:650px){
+    #page_head{
+        display: block;
+        margin-bottom: 10px;
+        >#PP_logo{
+            position: absolute;
+            justify-self: start;
+            align-self: auto;
+           
+
+
+        }
+        >#title{
+            justify-self: center;
+            align-self: center;
+            padding-top: 50px;
+            font-size: 500%;
+        }
+        >#Home{
+            justify-self: end;
+            align-self: auto;
+            font-size: 250%;
+            margin-right: 20px;
+            margin-left: 10px;
+
+        }
+        >#About{
+            justify-self: end;
+            align-self:auto;
+            font-size: 250%;
+            margin-right: 20px;
+
+        }
+        >#Conloc{
+            justify-self: end;
+            align-self: auto;
+            font-size: 250%;
+
+        }
+    }
+    #page_main_d{
+        margin: 0px;
+        background-color: tomato;
+        
+        
+    }
+        
+       
+    
+    #main_dishes{
+        display: grid;
+       
+        
+        
+
+    }
+    #Pizza{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+
+        
+        >#title1{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+        }
+
+        >.menu_cont_a{
+            background-color: darkgray;
+            width: 250px;
+        }
+    }
+
+    #pasta{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+        >#title2{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+        }
+        >.menu_cont_a{
+            background-color: darkgray;
+        }
+        
+    }
+
+    #combos{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+        >#title3{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+            margin-right: 15px;
+        }
+        >.menu_cont_b{
+            height: 400px;
+            width: 250px;
+            background-color: darkgray;
+            >h2{
+                font-size: 200%;
+            }
+            >p{
+                font-size: 200%;
+            }
+        
+        }
+    }
+
+    #treats{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+        >#title4{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+            margin-right: 15px;
+        }
+        >.menu_cont_a{
+            background-color: darkgray;
+        }
+    }
+    #snacks{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+        >#title5{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+            margin-right: 15px;
+        }
+        >.menu_cont_a{
+            background-color: darkgray;
+            font-size: 200%;
+        }
+    }
+
+    #drinks{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-right: 150px;
+        >#title6{
+            font-size: 500%;
+            justify-self: center;
+            align-self: center;
+            border-style: double;
+            border-width: 15px;
+            margin-right: 15px;
+        }
+        >.menu_cont_a{
+            background-color: darkgray;
+            font-size: 200%;
+        }
+    }
+    #page_foot{
+        margin: 0px;
+    }
+
+    
+}
+
